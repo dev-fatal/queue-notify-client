@@ -1,5 +1,7 @@
 # Shuffle Queue Notifier
 
+Based on https://github.com/dev-fatal/queue-notify
+
 Shuffle Queue Notifier is an Electron-based desktop application designed to monitor your World of Warcraft retail folder's **Screenshots** subfolder for newly created `.tga` files. When a new file is detected, the application notifies a backend service via a `/notify` endpoint. The app also provides registration through a `/register` endpoint and includes a user-friendly Setup interface for managing settings and external integrations.
 
 > **Note:**  
